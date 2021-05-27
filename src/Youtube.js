@@ -20,10 +20,11 @@ this.state = {
   eos:[]
 };
 
-this.fucnx=this.fucnx.bind(this);
+//this.fucnx=this.fucnx.bind(this);
 }
 
-fucnx()
+
+componentDidUpdate()
 { console.log("Hello Avanish");
   
 fetch(AURL)
@@ -54,8 +55,8 @@ console.log(AURL);  //this.state.resultyt.map((link,i)=> console.log(link) );
 
 
 return ( 
-<div>
-<button onClick={this.fucnx}> Youtube Video </button>
+<div>   
+
 
 { this.state.eos.map((link,i)=>
 

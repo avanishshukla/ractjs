@@ -1,10 +1,9 @@
-
 import React, { Component } from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const API='AIzaSyCrabFFe6a48icSTxTv9zUTRCxB2qyzElw' 
 const channelId = 'UCkgY5iy0Y4SqQustDKlee7g' 
 const result = 10;
-
+const rjson= '' ;
 //https://www.googleapis.com/youtube/v3/search?key=AIzaSyCrabFFe6a48icSTxTv9zUTRCxB2qyzElw&channelId=UCkgY5iy0Y4SqQustDKlee7g&part=snippet,id&order=date&maxResults=10
 // https://www.googleapis.com/youtube/v3/search?key=${AIzaSyCrabFFe6a48icSTxTv9zUTRCxB2qyzElw}&channelId=${UCkgY5iy0Y4SqQustDKlee7g}&part=snippet,id&order=date&maxResults=20
 
@@ -49,7 +48,7 @@ fetch(AURL)
           //this.setState(resultyt);
          
         //}
-         console.log(vtitle);    
+         //console.log(vtitle);    
          //this.setState({ list: [] });
          
          this.setState({eos});
@@ -57,6 +56,7 @@ fetch(AURL)
 
      })
     .catch((error) => {
+      console.error("Error Has Occurred");
       console.error(error);
     });
  
