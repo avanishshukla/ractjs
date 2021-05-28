@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ractjs/static/css/main.5c507b48.chunk.css",
+    "main.js": "/ractjs/static/js/main.b4d04d90.chunk.js",
+    "main.js.map": "/ractjs/static/js/main.b4d04d90.chunk.js.map",
+    "runtime-main.js": "/ractjs/static/js/runtime-main.1aee9983.js",
+    "runtime-main.js.map": "/ractjs/static/js/runtime-main.1aee9983.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/ractjs/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e28df8c5.chunk.js": "/ractjs/static/js/2.e28df8c5.chunk.js",
+    "static/js/2.e28df8c5.chunk.js.map": "/ractjs/static/js/2.e28df8c5.chunk.js.map",
+    "static/js/3.a595cb5e.chunk.js": "/ractjs/static/js/3.a595cb5e.chunk.js",
+    "static/js/3.a595cb5e.chunk.js.map": "/ractjs/static/js/3.a595cb5e.chunk.js.map",
+    "index.html": "/ractjs/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/ractjs/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.5c507b48.chunk.css.map": "/ractjs/static/css/main.5c507b48.chunk.css.map",
+    "static/js/2.e28df8c5.chunk.js.LICENSE.txt": "/ractjs/static/js/2.e28df8c5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ractjs/static/media/aimg.57a982e4.jpg",
+    "static/media/fetureimge.de09a48b.jpg": "/ractjs/static/media/fetureimge.de09a48b.jpg",
+    "static/media/logo.83ceca99.svg": "/ractjs/static/media/logo.83ceca99.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1aee9983.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e28df8c5.chunk.js",
+    "static/css/main.5c507b48.chunk.css",
+    "static/js/main.b4d04d90.chunk.js"
+  ]
+}
