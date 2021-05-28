@@ -3,14 +3,9 @@ import React from 'react';
 const Events = () => {
 return (
 	<div
-	style={{
-		display: 'flex',
-		justifyContent: 'Centre',
-		alignItems: 'Centre',
-		height: '100vh'
-	}}
+	
 	>
-	<h1>Welcome to GeeksforGeeks Events</h1>
+	<h1>Welcome to Tan Ki Bat Events</h1>
 	</div>
 );
 };

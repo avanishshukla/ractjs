@@ -21,22 +21,17 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #5052e4;
 }
 
+.navxy {  background-color: rgb(255, 255, 255) ; }
 
 
-body {
-
-  background-color: #f1c40f ;
-
-
-}
 
 .youtube
 {
   
-border: 3px red dashed ;
+border: 3px rgb(0, 60, 255) dashed ;
 margin-top: 150px;
 padding-bottom: 30px;
 padding-top: 20px;
@@ -58,7 +53,7 @@ header {
 
 
 .nav {
-  background-color: #61dafb;
+  background-color: #b9ecf0;
   background-image: url('./aimg.jpg');
   background-position: cover;  
   min-height: 300px;
@@ -66,4 +61,4 @@ header {
   }
   
   
-  
+  img{  border-radius: 5px;}

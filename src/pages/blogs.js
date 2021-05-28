@@ -1,12 +1,21 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 const Blogs = () => {
 return (
-	<div
+	<div>
+	 <Container>
 	
-	>
-	<h1 style={{backgroundColor: "lightblue"}}> Welcome to GeeksforGeeks Blogs</h1>
-	<p>
+	<Row>
+	
+	<Col   sm={4} lg={12} md={12}>
+	
+	<h1 style={{backgroundColor: "lightblue"}}> Welcome to Tan Ki BatBlogs</h1>
+	
+	
+	<p  >
     When you lack good health, everything else in life suffers. It’s harder to concentrate and study. Illness can cause you to fall behind in coursework. Stress can make you feel overwhelmed. If you want to do well in all areas of your life, you must make your health a priority.
 
 In the 2020 Social Progress Index, which measures quality of life across the globe using 50 well-being metrics, Americans rated themselves worse off now than they were 10 years ago. This data was collected before the COVID-19 pandemic hit, which has only increased the nation’s need to live healthier, more balanced lives.
@@ -87,7 +96,9 @@ Time magazine’s nutrition site has journalism-based articles featuring intervi
 
 	</p>
 	
-	
+	</Col>
+	</Row>
+	</Container>
 	</div>
 );
 };

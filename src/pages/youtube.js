@@ -23,11 +23,11 @@ this.state = {
 
 };
 
-this.fucnx=this.fucnx.bind(this);
+//this.fucnx=this.fucnx.bind(this);
 }
+//<button className="btn btn-primary" style={{ marginTop: 15 }} onClick={this.fucnx}> Youtube Video </button>
 
-fucnx()
-{ console.log("Hello Avanish");
+componentDidMount() { console.log("Hello Avanish");
   
 fetch(AURL)
     .then((response) => response.json())
@@ -70,8 +70,7 @@ console.log(AURL);  //this.state.resultyt.map((link,i)=> console.log(link) );
 
 return ( 
 <div>
-    <button className="btn btn-primary" style={{ marginTop: 15 }} onClick={this.fucnx}> Youtube Video </button>
-
+    
  
 
 
@@ -81,14 +80,14 @@ return (
 <div className="container"  style={{ marginTop: 15 }}  >
   <div className="row">
     <div className="  container  col-lg-6  col-md-12 col-sm-12">
-    
+   
     
     { this.state.eos.map((link,i)=>
 
    
 { 
     
-    var frame = <div > <iframe key= {i} className="container-fluid" height="300px" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> <h4 style={{color:'blueviolet'}}>{this.state.vtitle[i]}</h4>  </div>   
+    var frame = <div > <iframe key= {i} className="container-fluid" height="300px" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> <h4 style={{color:'#5052e4'}}>{this.state.vtitle[i]}</h4>  </div>   
    
     if(i%2===0) {return frame   ; } else { return  "" }
   
@@ -109,7 +108,7 @@ return (
 { 
   
   
-  var frame1 = <div > <iframe key= {i} className="container-fluid" height="300px" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> <h4 style={{color:'blueviolet'}} > {this.state.vtitle[i]} </h4>  </div>   
+  var frame1 = <div > <iframe key= {i} className="container-fluid" height="300px" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> <h4 style={{color:'#5052e4'}} > {this.state.vtitle[i]} </h4>  </div>   
   //return (i%2!==0 ? frame1 : '');
   if(i%2!==0) {return frame1;} else { return ''; }
   

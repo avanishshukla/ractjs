@@ -18,21 +18,24 @@ import FormControl from 'react-bootstrap/FormControl';
 import  Navbar from 'react-bootstrap/Navbar';
 
 import logo from '../../sitelogo.png';
-import { NavItem } from 'react-bootstrap';
-import Image from 'react-bootstrap/Image';
-import imgx  from '../../fetureimge.jpg';
 
+import imgx  from '../../fetureimge.jpg';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 const Navbarx = () => {
   return (  
     
 <>
-    <div > 
+<Container>
+<Row>
+<Col sm={4} lg={12} md={12}>
     <img src={imgx}  className="img-fluid" alt="Responsive image"></img>
- </div>
+
     
     
-    <Navbar bg="light" expand="lg">
+    <Navbar className="navxy" expand="lg">
   <Navbar.Brand href="#home"><a className="navbar-brand" href="#"sitelogo><img src={logo} alt="Tan Ki Bat "/></a></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -45,60 +48,38 @@ const Navbarx = () => {
      
      
      
-     
-    
+    <NavLink to='/blogs' activeStyle>
+            Home
+          </NavLink>
+          <NavLink to='/about' activeStyle>
+            About
+          </NavLink>
     
        <NavLink to='/events' activeStyle>
             Events
           </NavLink>
-          <NavLink to='/annual' activeStyle>
-            Annual Report
+          <NavLink to='/healthyfood' activeStyle>
+            Healthy Food
           </NavLink>
           
           <NavLink to='/youtube' activeStyle>
-            Youtube
+            Recent Video
           </NavLink>
            
           <NavLink to='/team' activeStyle>
-            Teams
+            Team
           </NavLink>
-          <NavLink to='/blogs' activeStyle>
-            Blogs
-          </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
-          </NavLink>
+         
+          
          
      
     </Nav>
-    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1"><NavLink to='/youtube' activeStyle>
-            Youtube
-          </NavLink></NavDropdown.Item>
-        
-        <NavDropdown.Item href="#action/3.2">  
-        <NavLink to='/annual' activeStyle>
-            Annual Report
-          </NavLink>
-        
-        
-        </NavDropdown.Item>
-        
-        </NavDropdown>
-      
-     
     
-    
-    
-    
-    
-    
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
   </Navbar.Collapse>
 </Navbar>
+</Col>
+</Row>
+</Container>
 </>
   );
 };

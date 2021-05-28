@@ -19,12 +19,12 @@ function Appx() {
         <Route path='/about' component={About} />
         <Route path='/events' component={Events} />
         
-        <Route path='/annual' component={AnnualReport} />
+        <Route path='/healthyfood' component={AnnualReport} />
         <Route path='/youtube' component={Youtube} />
         
         <Route path='/team' component={Teams} />
         <Route path='/' component={Blogs} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/about' component={About} />
       </Switch>
     </Router>
   );
